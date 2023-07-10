@@ -1,0 +1,400 @@
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* utility class */
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.con-tener {
+    margin-inline: 50px;
+}
+.con-tener2 {
+    margin-top: 30px;
+    margin-inline: 100px;
+}
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.btn-primary  {
+    padding-inline: 15px;
+    font-weight: 500;
+}
+
+
+/* hero section */
+.herosection {
+   max-width: auto;
+    height: 44rem;
+    padding-block: 5px;
+    background-size: cover;
+    background-image: url(hero\ img2.jpg);
+}
+
+.navcontainer {
+    padding-block: 10px;
+}
+
+.navbar {
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 600;
+    width: 22%;
+}
+
+p span {
+    color: red;
+    font-family: cursive;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.navcontent {
+    align-items: center;
+    justify-content: flex-end;
+    height: 4rem;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.navcntntlinks li {
+    color: white;
+    margin-left:50px;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, border .2s ease-out ;
+}
+
+.navcntntlinks li:hover {
+    color: rgb(255, 39, 39);
+    border-bottom:1.5px solid white ;
+    border-radius: 3.5px;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.herocontent {
+    height: 625px;
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+
+.section h3 {
+    font-family: 'Alkatra', cursive;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.section p {
+    color: #f43c04;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+.btn {
+    justify-content:center ;
+}
+.btn span {
+    padding: 12px;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    transition: background-color .3s ease-in-out, font-size .3s ease-in-out;
+}
+
+.btn span:hover {
+    background-color: #ff0000;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+/* tattoo section */
+
+.tattoosection {
+    height: auto;
+    /* max-width: 1582px; */
+    margin-bottom: 35px;
+}
+.tattooheader {
+    justify-content: center;
+    margin-block: 35px;
+}
+
+.tattooheader h4 {
+    font-family: 'Alkatra', cursive;
+    font-size: 2.5rem;
+    font-weight: 300;
+    transition: .2s ease-in-out;
+
+}
+
+.tattooheader h4:hover {
+   color: #ff0000;
+}
+
+.tattoo-item {
+    justify-content: space-between;
+    
+    
+}
+
+.card {
+    width: 21%;
+    height: 450px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px black;
+}
+
+
+
+.card img {
+    width:100%;
+    height: 250px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+h5 {
+    text-align: center;
+    margin-block: 10px;
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+
+.cardtext {
+    text-align: center;
+    margin-block:10px;
+    line-height: 1.5rem;
+    font-family: cursive;
+    font-weight: 250;
+    margin: 20px;
+}
+
+/* service sectionn */
+
+.service-sec {
+    /* max-width: 100%; */
+}
+.service-header {
+    font-family: 'Alkatra', cursive;
+    font-size: 2.5rem;
+    font-weight: 300;
+    justify-content: center;
+    margin-bottom: 35px;
+    transition: .2s ease-in-out;
+}
+
+.service-header:hover {
+    color: #ff0000;
+}
+
+.service-item {
+    justify-content: space-between;
+}
+
+.card-s-s {
+    height: rem;
+    height: fit-content;
+}
+
+.card4 {
+    height: 485px;
+}
+
+.cardheader {
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.btn {
+    margin-block: 8px;
+}
+
+
+/* about us sectionn */
+
+.about-us {
+    margin-top: 2.5rem;
+    border-top: 1px solid black;
+    padding-top: 2.5rem;
+    justify-content: space-evenly;
+}
+
+.about-us-content {
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.about-us-content h2 {
+    font-family: 'Alkatra', cursive;
+    font-size: 2.5rem;
+    font-weight: 300;
+    justify-content: center;
+    margin-bottom: 35px;
+    transition: .2s ease-in-out;
+}
+
+.about-us-content h2:hover {
+    color: #ff0000;
+}
+
+.about-us-content p {
+    font-family: cursive;
+    font-style: italic;
+    font-size: larger;
+    line-height: 2.3rem;
+}
+
+.abt-link-img img {
+    height: 45rem;
+    border-radius: 10px;
+}
+
+/* .review-sec {
+    margin-block: 40px;
+    background-image: linear-gradient(to right, rgba(58, 58, 58, 0.8), rgb(0, 0, 0)), url(./assets/review.jpg);
+    background-size: contain;
+    background-position: right;
+    height: 40rem;
+} */
+.contact-us {
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .containr {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .address,
+  .contact {
+    flex-basis: calc(50% - 20px);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  
+
+
+
+/* this is a footerr */
+footer {
+    margin-top: 10px;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 18px 0;
+  }
+  
+  .containerr {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links li a:hover {
+    color: #ffffff;
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 3px;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  
+  .social-icons a:hover {
+    color:#f43c04;
+  }
+  
